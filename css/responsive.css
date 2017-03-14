@@ -394,6 +394,11 @@ px      68    160    252    */
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
+#slider {
+  background-position: 50% 50%;
+  background-clip: padding-box;
+}
+
 /*	Retina media query.
 	Overrides styles for devices with a 
 	device-pixel-ratio of 2+, such as iPhone 4.
