@@ -176,6 +176,7 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #slider {
+    background: url("../img/crossfire-swiftsure-3-iphone.jpg") no-repeat;
     padding-top: 90px;
     padding-bottom: 100px;
   }
@@ -244,6 +245,12 @@ px      68    160    252    */
 --*/
   #features .features-img {
     text-align: center;
+  }
+
+  #feature {
+    background-image: url(../img/feature-iphone.jpg);
+    background-position: 50% 50%;
+    box-sizing: content-box;
   }
   /*---------------------------------------------
 					Index Close 
@@ -394,10 +401,6 @@ px      68    160    252    */
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
-#slider {
-  background-position: 50% 50%;
-  background-clip: padding-box;
-}
 
 /*	Retina media query.
 	Overrides styles for devices with a 
