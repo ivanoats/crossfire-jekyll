@@ -249,8 +249,10 @@ px      68    160    252    */
 
   #feature {
     background-image: url(../img/feature-iphone.jpg);
-    background-position: 50% 50%;
-    box-sizing: content-box;
+    background-position: 0 0;
+    box-sizing: border-box;
+    background-size: cover;
+    border: 1px dotted red;
   }
   /*---------------------------------------------
 					Index Close 

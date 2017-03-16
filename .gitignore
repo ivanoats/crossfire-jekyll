@@ -4,3 +4,4 @@ _site
 Gemfile.lock
 .DS_Store
 aero-deploy.tar.gz
+aero-debug.log
