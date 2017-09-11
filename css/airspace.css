@@ -102,7 +102,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background: url("../img/crossfire-swiftsure-3-cropped.min.jpg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
