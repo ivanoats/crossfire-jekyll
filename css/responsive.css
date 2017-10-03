@@ -162,6 +162,9 @@ px      68    160    252    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  .navbar-brand {
+    display: none;
+  }
   .heading {
     padding-left: 0px;
   }
@@ -177,14 +180,16 @@ px      68    160    252    */
   }
   #slider {
     background: url("../img/crossfire-swiftsure-3-iphone.jpg") no-repeat;
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-size: contain;
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 2em;
+    display: hidden;
   }
   #slider .block p {
     font-size: 13px;
